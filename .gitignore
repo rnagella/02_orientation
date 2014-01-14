@@ -8,4 +8,4 @@ Resources/
 .fastdev.lock
 *.pyc
 .settings/
-tibuildautomation.js
+strings.js

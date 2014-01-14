@@ -1,18 +1,34 @@
-Welcome to your Appcelerator Titanium Mobile Project
+/* Beta source*/
 
-This is a blank project.  Start by editing your application's app.js to 
-make your first mobile project using Titanium.
+- tibuildautomation - This application aims at reducing
+  build process time and
+  human effort in creating daily build process for titanium.
+
+- This application aims at automation of titanium builds for ios universe and
+android.
+
+- It has follwing commands
+
+  1. git - pulls the latest commits form the github.
+
+  2. build <android | ios | ipad> - builds an application for respective device.
+
+  3. copy - copies the build source to the destination folder, renames
+  it to the latest version by searching the destination directory and increments version by 1.
+
+  4. append - append the list, entries tag for respective devices as predefined with dynamic version.
+
+  /* This application is in beta and has side effects.
+    It's build acording to my needs and designed especially for my requirements.
+  */
+
+  // This is build using nodejs.
+
+  /* module dependeicies */
+
+  Dependencies : underscore
 
 
 
-----------------------------------
-Stuff our legal folk make us say:
 
-Appcelerator, Appcelerator Titanium and associated marks and logos are 
-trademarks of Appcelerator, Inc. 
-
-Titanium is Copyright (c) 2008-2013 by Appcelerator, Inc. All Rights Reserved.
-
-Titanium is licensed under the Apache Public License (Version 2). Please
-see the LICENSE file for the full license.
 
